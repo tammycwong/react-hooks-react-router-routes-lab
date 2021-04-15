@@ -7,7 +7,7 @@ function Actors() {
       <h2>Name: {actor.name}</h2>
       <ul>
         {actor.movies.map(movie => (
-          <li key={movie}>Movies: {movie}</li>
+          <li key={movie}> {movie}</li>
         ))}
       </ul>
     </div>
